@@ -1,0 +1,68 @@
+<manifest identifier="scorm_content" version="1.2"
+    xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+    xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_v1p1p2.xsd
+                        http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_v1p2.xsd">
+    <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+    </metadata>
+    <organizations default="default_organization">
+        <organization identifier="default_organization">
+            <title>Mi OVA en SCORM</title>
+            <item identifier="index" identifierref="index_resource">
+                <title>Página Principal</title>
+            </item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="index_resource" type="webcontent" adlcp:scormtype="sco" href="index.html">
+            <!-- Archivos principales -->
+            <file href="index.html"/>
+            <file href="assets/index-DElSJj1C.js"/>
+            <file href="assets/index-BeNcofha.css"/>
+            <file href="assets/__vite-browser-external-BIHI7g3E.js"/>
+            
+            <!-- Archivos multimedia -->
+            <file href="assets/publico-BM29aUCJ.jpg"/>
+            <file href="assets/brain-DuIle_6u.jpg"/>
+            <file href="assets/comunicacion-DhQjXafk.jpg"/>
+            <file href="assets/leader_intersection-fJj9nwsx.png"/>
+            <file href="assets/transmitir-CPdRFJNL.jpg"/>
+            <file href="assets/brain-VvN8vSQ2.jpg"/>
+            <file href="assets/direction-DhfOa4O-.png"/>
+            <file href="assets/casos-De-2BCQy.png"/>
+            <file href="assets/title-BL8rDaCL.png"/>
+            <file href="assets/perabite-CAjsJO9E.webp"/>
+            <file href="assets/lider-DhpfFDM1.png"/>
+            <file href="assets/Drucker-CLCcKEtD.png"/>
+            <file href="assets/module1-D4Xfd4zN.png"/>
+            <file href="assets/tabla5_1-opA88IRY.png"/>
+            <file href="assets/tabla7_2-V0D__QXV.png"/>
+            <file href="assets/quiz-CbzYSFrN.png"/>
+            <file href="assets/module1-3-CvSkdd8O.png"/>
+            <file href="assets/tabla6_3-Mlab5HHv.png"/>
+            <file href="assets/tabla6_2-BsOMb37k.png"/>
+            <file href="assets/tabla7_1-BaYu3yT5.png"/>
+            <file href="assets/transform2-BONgLQsS.png"/>
+            <file href="assets/tabla6_1-DeUKo29z.png"/>
+            <file href="assets/transform1-BCmw8l8e.png"/>
+            <file href="assets/methods-Dp5Kf7E4.png"/>
+            <file href="assets/truefalse-BTtYGiX8.png"/>
+            <file href="assets/competence-BPsluthU.png"/>
+            <file href="assets/gestion-DQQ0v9r2.jpg"/>
+            <file href="assets/abilities-CXnM1ip8.png"/>
+            <file href="assets/comunicacion2-BvLhnfPz.png"/>
+            <file href="assets/tabla3-CnDEf7oX.png"/>
+            <file href="assets/matrix-DU-_YKPz.png"/>
+            <file href="assets/procrastination-B0FcweCJ.png"/>
+            <file href="assets/tabla5_2-EU1kkbPy.png"/>
+            <file href="assets/productivity-BhXNWEbx.png"/>
+            <file href="assets/steve-CDTqalWF.png"/>
+            <file href="assets/exam-CrRF8ZYb.png"/>
+            <file href="assets/pdf.worker.min-DGf6LXVo.mjs"/>
+            <file href="assets/module_1_document-CEt3W5nL.pdf"/>
+        </resource>
+    </resources>
+</manifest>
